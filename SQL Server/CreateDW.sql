@@ -1,4 +1,4 @@
---CREATE DATABASE DW;
+﻿--CREATE DATABASE DW;
 --GO
 USE DW;
 GO
@@ -25,13 +25,22 @@ CREATE TABLE DimTime (
 CREATE TABLE DimItem (
     item_id INT PRIMARY KEY,
     description VARCHAR(255) NULL,
-	price DECIMAL(15,3)
+	price DECIMAL(15,2)
 );
 
 CREATE TABLE DimRepresentativeOffice (
     city_id INT PRIMARY KEY,
     city_name VARCHAR(50) NULL,
     state VARCHAR(50) NULL,
+);
+BULK INSERT [dbo].[DimRepresentativeOffice]
+FROM 'D:\Project\Data Warehouse\DimRepresentativeOffice.csv'
+WITH (
+    FORMAT = 'CSV',               -- Chỉ định định dạng CSV (SQL Server 2022 trở lên)
+    FIRSTROW = 2,                 -- Bỏ qua dòng tiêu đề nếu có
+    FIELDTERMINATOR = ',',       -- Phân cách các cột
+    ROWTERMINATOR = '\n',        -- Phân cách các dòng
+    TABLOCK                     -- Tăng hiệu năng cho việc ghi dữ liệu số lượng lớn
 );
 CREATE TABLE DimCustomer (
     customer_id INT PRIMARY KEY,
@@ -45,7 +54,7 @@ CREATE TABLE FactSale (
 	item_id INT,
 	customer_id INT, 
 	units_sold INT, 
-	revenue DECIMAL(15,3),
+	revenue DECIMAL(15,2),
 	avg_sales DECIMAL(15,5),
 	FOREIGN KEY (time_id) REFERENCES DimTime(time_id),
 	FOREIGN KEY (item_id) REFERENCES DimItem(item_id),
