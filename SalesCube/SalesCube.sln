@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP", "OLAP\OLAP.dwproj", "{2DE9DBE6-A825-A4CC-1575-578947AF6F7F}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SalesCube", "SalesCube.dwproj", "{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DE9DBE6-A825-A4CC-1575-578947AF6F7F}.Development|Default.ActiveCfg = Development
-		{2DE9DBE6-A825-A4CC-1575-578947AF6F7F}.Development|Default.Build.0 = Development
-		{2DE9DBE6-A825-A4CC-1575-578947AF6F7F}.Development|Default.Deploy.0 = Development
+		{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}.Development|Default.ActiveCfg = Development
+		{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}.Development|Default.Build.0 = Development
+		{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7CE1DC61-93B5-4A0E-B625-8B68DD69D3DE}
+		SolutionGuid = {12219BB9-2E47-4D35-AC9B-4EAE288592FB}
 	EndGlobalSection
 EndGlobal

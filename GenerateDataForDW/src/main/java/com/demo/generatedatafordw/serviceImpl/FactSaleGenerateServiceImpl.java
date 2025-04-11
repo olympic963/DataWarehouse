@@ -52,7 +52,7 @@ public class FactSaleGenerateServiceImpl implements FactSaleGenerateService {
         log.info("Found {} DimCustomer records", customers.size());
         log.info("Found {} DimItem records", items.size());
 
-        int totalRecords = 1000000;
+        int totalRecords = 2000000;
         int threads = 10;
         int recordsPerThread = totalRecords / threads;
 
@@ -118,7 +118,6 @@ public class FactSaleGenerateServiceImpl implements FactSaleGenerateService {
                 }
             }));
         }
-
         futures.forEach(f -> {
             try {
                 f.get();

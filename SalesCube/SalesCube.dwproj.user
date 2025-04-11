@@ -7,11 +7,16 @@
           <ConfigurationSetting>
             <Id>DW</Id>
             <Name>DW</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4rsrQm0imEirxoYKh3M+rwAAAAAGAAAARABXAAAAEGYAAAABAAAgAAAAbtIsyBIzqo2WgPrnJR82isoPZjiIPnzs/1rrdbkXlE0AAAAADoAAAAACAAAgAAAA3dII15h21jYiliQZdvuwZr58OYv7x8SPR1qA8+60eYwQAAAA8HdTCIR45y980YUMfUnYhUAAAACbLA5mbHbSRAAk4ektog6t1sBcILjm9k7NP/dcbrauB55M0jqDEPNUQbhhWk4yxO8ow4AZmT4amcdVW6VDEVVQ</Value>
           </ConfigurationSetting>
         </UserIDs>
-        <TargetServer>localhost</TargetServer>
-        <TargetDatabase>OLAP</TargetDatabase>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DW</Id>
+            <Name>DW</Name>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost\SSAS</TargetServer>
+        <TargetDatabase>SalesCube</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
