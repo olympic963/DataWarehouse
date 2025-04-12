@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>DW.cube</Name>
-      <FullPath>DW.cube</FullPath>
+      <Name>Sales.cube</Name>
+      <FullPath>Sales.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>DW.partitions</Name>
-          <FullPath>DW.partitions</FullPath>
+          <Name>Sales.partitions</Name>
+          <FullPath>Sales.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>

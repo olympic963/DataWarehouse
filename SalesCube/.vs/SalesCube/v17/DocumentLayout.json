@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Project\\Data Warehouse\\SalesCube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|D:\\Project\\Data Warehouse\\SalesCube\\DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|solutionrelative:DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+      "AbsoluteMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|D:\\Project\\Data Warehouse\\SalesCube\\DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|solutionrelative:DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|D:\\Project\\Data Warehouse\\SalesCube\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DFA6D2F3-3D21-1AAB-2CFF-94A3CDC9B15B}|SalesCube.dwproj|solutionrelative:Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,13 +35,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DW.cube [Design]",
-              "DocumentMoniker": "D:\\Project\\Data Warehouse\\SalesCube\\DW.cube",
-              "RelativeDocumentMoniker": "DW.cube",
-              "ToolTip": "D:\\Project\\Data Warehouse\\SalesCube\\DW.cube [Design]",
-              "RelativeToolTip": "DW.cube [Design]",
+              "Title": "DW.dsv [Design]",
+              "DocumentMoniker": "D:\\Project\\Data Warehouse\\SalesCube\\DW.dsv",
+              "RelativeDocumentMoniker": "DW.dsv",
+              "ToolTip": "D:\\Project\\Data Warehouse\\SalesCube\\DW.dsv [Design]",
+              "RelativeToolTip": "DW.dsv [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-11T17:10:02.399Z",
+              "WhenOpened": "2025-04-12T16:13:34.914Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d52cee1-a15c-42fd-8d30-faacc8d1dd02}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Customer.dim [Design]",
+              "DocumentMoniker": "D:\\Project\\Data Warehouse\\SalesCube\\Dim Customer.dim",
+              "RelativeDocumentMoniker": "Dim Customer.dim",
+              "ToolTip": "D:\\Project\\Data Warehouse\\SalesCube\\Dim Customer.dim [Design]",
+              "RelativeToolTip": "Dim Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-12T15:51:51.085Z",
               "EditorCaption": " [Design]"
             }
           ]

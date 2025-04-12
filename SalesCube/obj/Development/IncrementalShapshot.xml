@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,56 +19,56 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.OlapDataSource</Type>
-        <TimeStamp>3ErTdIdU8Gu9xZj2cbD4nD8UGog=4/12/2025 12:02:31 AM4/12/2025 12:02:31 AM</TimeStamp>
+        <TimeStamp>3ErTdIdU8Gu9xZj2cbD4nD8UGog=4/12/2025 12:39:32 AM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>Sales Cube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>5wWznCNrCeR1GTAy6TzJvaj+EeQ=4/12/2025 12:32:38 AM4/12/2025 12:32:38 AM</TimeStamp>
+        <TimeStamp>5wWznCNrCeR1GTAy6TzJvaj+EeQ=4/12/2025 12:39:32 AM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>GVEUHT88wOkAjNPxRHHgrOrLvSU=4/11/2025 7:12:03 PM4/11/2025 6:28:34 PM</TimeStamp>
+        <TimeStamp>GVEUHT88wOkAjNPxRHHgrOrLvSU=4/12/2025 12:39:32 AM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>IOU7va+e4SXjo3YwI77Hcf6kdKI=4/12/2025 12:26:14 AM4/11/2025 11:55:26 PM</TimeStamp>
+        <TimeStamp>gs9dAcNsLyxwLkhm3WiknJyk0Nk=4/12/2025 10:25:40 PM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>Dim Item</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qFm6rvH0O36cg9aDWblzXeWJ6Yc=4/12/2025 12:28:50 AM4/11/2025 11:59:20 PM</TimeStamp>
+        <TimeStamp>/Ya3JXhefu+01y8q/VqPONXK6b4=4/12/2025 8:40:55 PM4/12/2025 7:46:07 PM</TimeStamp>
         <ID>
           <String>Dim Time</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>VxttFRZvtM9w/mlBv6trcQiIOpk=4/12/2025 12:17:36 AM4/12/2025 12:00:41 AM</TimeStamp>
+        <TimeStamp>wUJnsf0nnJ92KW6MIY71L9Hk/F4=4/12/2025 10:30:54 PM4/12/2025 7:46:16 PM</TimeStamp>
         <ID>
           <String>Dim Representative Office</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>t9u7XdtJw6QU4nJ/vSpeqVB+p/0=4/12/2025 12:30:30 AM4/12/2025 12:09:14 AM</TimeStamp>
+        <TimeStamp>1wnd1DV+mxDmaRd30poZbUGyEDw=4/12/2025 9:08:44 PM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>Dim Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>HI9l2ZCJ5jLq9zl1JL4a2WFubDc=4/12/2025 12:20:07 AM4/12/2025 12:10:02 AMiJkXb+Z85FwK5Agfyoq4NHcyIno=4/12/2025 12:10:02 AM4/12/2025 12:10:02 AM</TimeStamp>
+        <TimeStamp>Zvcre12VYCFv4xdZ2AFemJaXgTE=4/12/2025 11:25:11 PM4/12/2025 12:39:32 AMiJkXb+Z85FwK5Agfyoq4NHcyIno=4/12/2025 12:39:32 AM4/12/2025 12:39:32 AM</TimeStamp>
         <ID>
           <String>DW</String>
         </ID>
@@ -76,7 +76,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>ZqTs6yFtVNQuDAWRx8c6HcHWR3g=4/12/2025 12:21:24 AM4/11/2025 6:27:05 PM</TimeStamp>
+      <TimeStamp>ZqTs6yFtVNQuDAWRx8c6HcHWR3g=4/12/2025 12:39:32 AM4/12/2025 12:39:32 AM</TimeStamp>
       <ID>
         <String>SalesCube</String>
       </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2025-04-11T17:32:50.413333Z</LastDeployed>
+  <LastDeployed>2025-04-12T16:25:27.043333Z</LastDeployed>
 </DeploymentSnapshot>
